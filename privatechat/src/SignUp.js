@@ -49,8 +49,8 @@ class SignUp extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Sign Up</h1>
+            <div  >
+                <h2 class="container-fluid" >Sign Up</h2>
                 Name:
                 <input type="text" name="name" value={this.state.name} onChange={this.handleChange.bind(this)} /><br />
                 Email:
@@ -60,6 +60,8 @@ class SignUp extends Component {
                 <button onClick={this.signUp.bind(this)}>Sign Up</button>
                 <div>{this.state.error.message}</div>
                 <div><Link to={'/login'}>Already a user? Sign in instead</Link></div>
+                
+
             </div>
         );
     }

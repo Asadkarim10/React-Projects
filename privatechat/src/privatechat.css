@@ -4,7 +4,7 @@
     bottom:0;
     width:100%;
 }
-.button{
+.button1{
     width: 70%;
 }
 h1{
@@ -15,4 +15,22 @@ h1{
 }
 li{
     list-style-type: none;
+    text-transform: uppercase;
+}
+h4{
+    margin-left: 35%;
+    text-transform: uppercase;
+    color: lightblue;
+    
+}
+h3{
+    margin-left: 40%;
+    color:lightblue;
+}
+.view{
+    border: 3px solid;
+    border-radius: 30px;
+    height: 70px;
+
+    margin-top: 4px;
 }

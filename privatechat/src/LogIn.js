@@ -41,13 +41,15 @@ class Login extends Component {
 
         return (
             <div >
+                <form >
                 <h2>Login</h2>
                 Email
-                <input type="text" value={this.state.email} name="email" onChange={this.changeHandler.bind(this)} /><br />
+                <input type="text" value={this.state.email}  name="email" onChange={this.changeHandler.bind(this)} /><br />
                 Password
                 <input type="text" value={this.state.password} name="password" onChange={this.changeHandler.bind(this)} /><br />
                 <button onClick={this.login.bind(this)}>Login</button>
                 <Link to={'/'}>Not a user? Sign Up instead</Link>
+                </form>
             </div>
         );
     }

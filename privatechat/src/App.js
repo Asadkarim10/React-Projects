@@ -18,7 +18,6 @@ class App extends Component {
           <Route path="/login" component={Login} />
           <Route path="/privatechat" component={privatechat} />
           <Route path="/upload" component={Upload} />
-
       </div>
       </Router>
     );
