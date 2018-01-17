@@ -86,22 +86,22 @@ class Dashboard extends Component {
             })
     }
 
-    search() {
-        var input, filter, ul, listItem, a, i;
-        input = document.getElementById("myInput");
-        filter = input.value.toUpperCase();
-        ul = document.getElementById("myUL");
-        listItem = ul.getElementsByTagName("ListItem");
-        for (i = 0; i < ListItem.length; i++) {
-            a = ListItem[i].getElementsByTagName("a")[0];
-            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                ListItem[i].style.display = "";
-            } else {
-                ListItem[i].style.display = "none";
+    // search() {
+    //     var input, filter, ul, listItem, a, i;
+    //     input = document.getElementById("myInput");
+    //     filter = input.value.toUpperCase();
+    //     ul = document.getElementById("myUL");
+    //     listItem = ul.getElementsByTagName("ListItem");
+    //     for (i = 0; i < ListItem.length; i++) {
+    //         a = ListItem[i].getElementsByTagName("a")[0];
+    //         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+    //             ListItem[i].style.display = "";
+    //         } else {
+    //             ListItem[i].style.display = "none";
     
-            }
-        }
-    }
+    //         }
+    //     }
+    // }
 
 
 
@@ -126,8 +126,8 @@ class Dashboard extends Component {
                 <div style={{ width: "30%", border: '1px solid gray' }}>
                 {/* <AppBar title={<span>User's</span>}
   /> */}        <h3>Users</h3>
-                    <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names.." title="Type in a name"/>
-                   <ul id="myUL">
+                   {/* <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names.." title="Type in a name"/> */}
+                   <ul >
                        
                         {
                             users.map((user, index) => {

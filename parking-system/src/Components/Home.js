@@ -8,7 +8,7 @@ render(){
             <div>
                <div id="title">
              <h1 id="name">Real-Time Car Parking Booking</h1>
-             <img id="headerImage" src="hedImage.jpg" alt="logo"/>
+             {/* <img id="headerImage" src="hedImage.jpg" alt="logo"/> */}
              </div>
                <Nav {... this.props}/>         
                 <Login {... this.props}/>

@@ -64,7 +64,7 @@ render(){
 
                             
                             <br />
-                            <tr><td><b>Status by Admin:  </b>We have recieved your complaint. We will soon take action on it. Thanks!</td></tr>
+                            <tr><td><b>Status by Admin:  </b>We have received your complaint. We will soon take action on it. Thanks!</td></tr>
                         </table>
                         
                         )}
