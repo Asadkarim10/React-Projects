@@ -35,7 +35,7 @@ export default class MissingReportForm extends React.Component{
          agemp: this.refs.agemp.getValue(),
          heightmp: this.refs.heightmp.getValue(),
         usmp: this.refs.usmp.getValue(),
-        date : this.refs.date.getValue()
+       // date : this.refs.date.getValue()
         }
         console.log(newMissingReport);
 
@@ -67,8 +67,8 @@ let currentUser = firebase.auth().currentUser;
           <br />
           <TextField hintText="Your Address" floatingLabelText="Address" type="commentbox"  ref="address" required="required"/>
           <br />
-          <DatePicker hintText="Date" ref="date"  required="required" />
-          
+          {/* <DatePicker hintText="Date" ref="date"  required="required" />
+           */}
           <br  /><br />
            <h3>Missing Persons Details</h3>
         <TextField hintText="Name of missing person" floatingLabelText="Name"  ref="namemp" required="required"/>

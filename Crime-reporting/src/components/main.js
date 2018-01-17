@@ -148,7 +148,7 @@ complaintForm(ev){
                                                         
                                                         <div><b>Posted by:</b>   {m.name}</div>
                                                         <div><b>Nature of Crime: </b>    {m.crime}</div>
-                                                        <div><b>Date : </b>    {m.date}</div>
+                                                      {/* <div><b>Date : </b>    {m.date}</div> */}
                                                         <div><b>Description of this Crime: </b>   {m.description}</div>
                                                     </MUI.CardText>
                                                     </MUI.Card>

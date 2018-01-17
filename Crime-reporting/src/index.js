@@ -164,7 +164,7 @@ import * as MUI from 'material-ui'
                                                         
                                                          <div><b>Posted by:</b>   {m.name}</div>
                                                         <div><b>Email: </b>   {m.email}</div>
-                                                        <div><b>Date : </b>    {m.date}</div>
+                                                        {/* <div><b>Date : </b>    {m.date}</div> */}
                                                         <div><h5><b>Missing Person's Detail:</b></h5></div>
                                                         <div><b>Name: </b>   {m.namemp}</div>
                                                         <div><b>Age: </b> {m.agemp}</div>

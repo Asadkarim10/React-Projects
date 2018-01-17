@@ -28,6 +28,7 @@ class Signin extends React.Component {
     const promise = auth.signInWithEmailAndPassword(userEmail, userPass);
     promise.then((user) => {
 console.log("Signin succesfully");
+alert("Signin succesfully");
     browserHistory.push('/main');
     })
     promise.catch(e => console.log("ERROR: ",e.message));

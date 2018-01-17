@@ -63,7 +63,7 @@ let currentUser = firebase.auth().currentUser;
           <br />
           <TextField hintText="Your Address" floatingLabelText="Address" type="commentbox" required="required" ref="address"/>
           <br  />
-          <DatePicker hintText="Date" ref="date"  required="required" />
+          {/* <DatePicker hintText="Date" ref="date"  required="required" /> */}
           <br />
             <TextField hintText="Nature of Crime" floatingLabelText="Nature of Crime" type="commentbox" required="required" ref="crime"/>
             <br /><br />

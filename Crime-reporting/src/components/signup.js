@@ -54,7 +54,7 @@ export default class SignUp extends React.Component {
 
 signin(ev){
   ev.preventDefault();
-browserHistory.push('/signin');
+browserHistory.push('/');
 }
 
 
